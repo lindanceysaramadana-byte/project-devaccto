@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Etalase digital UMKM Indonesia: kuliner, kerajinan, dan fesyen karya pelaku usaha lokal.">
+  <title>Project-Lindan-DEVACCTO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#beranda" class="brand">Karya<span>Nusantara</span></a>
+      <nav aria-label="Navigasi utama">
+        <ul class="nav-list">
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#produk">Produk</a></li>
+          <li><a href="#dampak">Dampak</a></li>
+          <li><a href="#pesan">Pemesanan</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="beranda" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Bangga Buatan Lokal</p>
+          <h1>Dukung UMKM Indonesia, Mulai dari Satu Pesanan</h1>
+          <p>Dari secangkir kopi petani Gayo hingga kain batik tulis pengrajin Pekalongan, setiap produk membawa cerita dan menggerakkan ekonomi keluarga di sekitarnya.</p>
+          <a class="btn" href="#produk">Lihat Produk</a>
+        </div>
+        <figure class="hero-figure">
+          <img src="images/hero-batik.jpg" alt="Motif batik berwarna biru dan emas" width="400" height="300">
+          <figcaption>Motif batik: warisan yang terus hidup lewat tangan pengrajin.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="tentang" class="section">
+      <div class="container">
+        <h2>Mengenal UMKM Indonesia</h2>
+        <article class="about">
+          <p>UMKM adalah singkatan dari <strong>Usaha Mikro, Kecil, dan Menengah</strong>: usaha produktif milik perorangan atau badan usaha kecil yang dikelola dengan modal dan tenaga kerja terbatas. Di Indonesia, UMKM menjadi tulang punggung perekonomian karena menyerap sebagian besar tenaga kerja dan hadir hampir di setiap sudut kampung.</p>
+          <p>Kami membuat etalase ini sebagai ruang kecil untuk memperkenalkan produk lokal agar lebih mudah ditemukan, dipesan, dan diceritakan kembali oleh pembeli.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="produk" class="section alt">
+      <div class="container">
+        <h2>Produk Unggulan</h2>
+        <p class="lead">Empat contoh produk pilihan dari berbagai daerah.</p>
+        <div class="grid">
+          <article class="card">
+            <img src="images/kopi.jpg" alt="Secangkir kopi hangat" width="400" height="300">
+            <div class="card-body">
+              <h3>Kopi Gayo Sangrai</h3>
+              <p>Biji kopi arabika dataran tinggi Aceh, disangrai medium dengan aroma cokelat dan buah.</p>
+              <p class="price">Rp 85.000 / 250 gr</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/batik%20tulis.jpg" alt="Kain batik motif lingkaran" width="400" height="300">
+            <div class="card-body">
+              <h3>Kain Batik Tulis</h3>
+              <p>Dibuat tangan dengan malam dan pewarna alami, tiap lembar punya motif yang tidak persis sama.</p>
+              <p class="price">Rp 350.000 / lembar</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/anyaman.jpg" alt="Keranjang anyaman bambu" width="400" height="300">
+            <div class="card-body">
+              <h3>Keranjang Anyaman</h3>
+              <p>Anyaman bambu dan rotan yang kuat, cocok untuk penyimpanan maupun dekorasi rumah.</p>
+              <p class="price">Rp 120.000 / buah</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="images/keripik.jpg" alt="Keripik singkong renyah" width="400" height="300">
+            <div class="card-body">
+              <h3>Keripik Singkong Pedas</h3>
+              <p>Singkong pilihan diiris tipis, digoreng renyah, dan dibumbui cabai khas rumahan.</p>
+              <p class="price">Rp 18.000 / 200 gr</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="dampak" class="section">
+      <div class="container">
+        <h2>Peran UMKM bagi Ekonomi</h2>
+        <ul class="stats">
+          <li><strong>±64 juta</strong><span>unit usaha UMKM di Indonesia</span></li>
+          <li><strong>±97%</strong><span>tenaga kerja diserap sektor UMKM</span></li>
+          <li><strong>±60%</strong><span>kontribusi terhadap PDB nasional</span></li>
+        </ul>
+        <p class="note">*Angka perkiraan berdasarkan data Kementerian Koperasi dan UKM; periksa sumber resmi untuk data terbaru.</p>
+      </div>
+    </section>
+
+    <section id="pesan" class="section alt">
+      <div class="container form-wrap">
+        <div>
+          <h2>Pemesanan &amp; Hubungi Kami</h2>
+          <p>Tertarik dengan salah satu produk? Isi formulir di samping dan kami akan menghubungi Anda untuk konfirmasi pesanan.</p>
+        </div>
+        <form id="orderForm" action="#" method="post" class="form">
+          <label for="nama">Nama Lengkap</label>
+          <input type="text" id="nama" name="nama" placeholder="Contoh: Siti Rahma" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+
+          <label for="produk-pilih">Produk</label>
+          <select id="produk-pilih" name="produk" required>
+            <option value="">-- Pilih produk --</option>
+            <option>Kopi Gayo Sangrai</option>
+            <option>Kain Batik Tulis</option>
+            <option>Keranjang Anyaman</option>
+            <option>Keripik Singkong Pedas</option>
+          </select>
+
+          <label for="pesan-teks">Pesan</label>
+          <textarea id="pesan-teks" name="pesan" rows="4" placeholder="Jumlah pesanan dan alamat pengiriman"></textarea>
+
+          <button type="submit" class="btn">Kirim Pesanan</button>
+        </form>
+
+        <div id="orderModal" class="modal" aria-hidden="true">
+          <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button type="button" class="modal-close" aria-label="Tutup modal">&times;</button>
+            <h3 id="modalTitle">Konfirmasi Pesanan</h3>
+            <div class="modal-row">
+              <span>Nama Lengkap</span>
+              <p id="modalNama">-</p>
+            </div>
+            <div class="modal-row">
+              <span>Email</span>
+              <p id="modalEmail">-</p>
+            </div>
+            <div class="modal-row">
+              <span>Produk</span>
+              <p id="modalProduk">-</p>
+            </div>
+            <div class="modal-row">
+              <span>Pesan</span>
+              <p id="modalPesan">-</p>
+            </div>
+            <button type="button" class="btn modal-ok">OK</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Karya Nusantara. Dibuat untuk tugas web statis tentang UMKM Indonesia.</p>
+    </div>
+  </footer>
+
+  <script>
+    const form = document.getElementById('orderForm');
+    const modal = document.getElementById('orderModal');
+    const closeButton = document.querySelector('.modal-close');
+    const okButton = document.querySelector('.modal-ok');
+
+    const modalFields = {
+      nama: document.getElementById('modalNama'),
+      email: document.getElementById('modalEmail'),
+      produk: document.getElementById('modalProduk'),
+      pesan: document.getElementById('modalPesan')
+    };
+
+    function closeModal() {
+      modal.classList.remove('show');
+      modal.setAttribute('aria-hidden', 'true');
+    }
+
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      const formData = new FormData(form);
+      modalFields.nama.textContent = formData.get('nama') || '-';
+      modalFields.email.textContent = formData.get('email') || '-';
+      modalFields.produk.textContent = formData.get('produk') || '-';
+      modalFields.pesan.textContent = formData.get('pesan') || '-';
+
+      document.getElementById('nama').value = '';
+      document.getElementById('email').value = '';
+      document.getElementById('produk-pilih').selectedIndex = 0;
+      document.getElementById('pesan-teks').value = '';
+
+      modal.classList.add('show');
+      modal.setAttribute('aria-hidden', 'false');
+    });
+
+    closeButton.addEventListener('click', closeModal);
+    okButton.addEventListener('click', closeModal);
+
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        closeModal();
+      }
+    });
+  </script>
+
+</body>
+</html>
